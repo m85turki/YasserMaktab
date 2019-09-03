@@ -39,14 +39,15 @@
 {
     overflow-y: scroll;
 
-    height: -webkit-calc(100% - 112px);
-    height:    -moz-calc(100% - 112px);
-    height:         calc(100% - 112px);
+    height: -webkit-calc(100vh - 151px);
+    height:    -moz-calc(100vh - 151px);
+    height:         calc(100vh - 151px);
     padding: 20px 30px;
 
     text-align: center;
 
     background-color: #fff;
+    position: relative;
 }
 
 .chat-application .chat-app-form
@@ -178,9 +179,9 @@
 {
     .chat-application .chat-app-window
     {
-        height: -webkit-calc(100% - 132px);
-        height:    -moz-calc(100% - 132px);
-        height:         calc(100% - 132px);
+        height: -webkit-calc(100vh - 132px);
+        height:    -moz-calc(100vh - 132px);
+        height:         calc(100vh - 132px);
     }
 }
 

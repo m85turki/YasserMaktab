@@ -1,6 +1,6 @@
 //  Notifications & messages scrollable
-if($('.sidebar-fixed').length > 0){
-    $('.sidebar-fixed').perfectScrollbar({
+if($('.sidebar-fixed, .scrollbar-p').length > 0){
+    $('.sidebar-fixed, .scrollbar-p').perfectScrollbar({
         theme:"dark"
     });
 }

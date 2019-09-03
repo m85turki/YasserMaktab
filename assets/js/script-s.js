@@ -60,8 +60,8 @@ function stickeyMenu() {
   }
   else {
     $(".top-menu").slideDown();
-    $(".lower-menu").css("margin-top", "")
-    $(".header-area").css("padding-top", "")
+    $(".lower-menu").css("margin-top", "0")
+    $(".header-area").css("padding-top", "0")
   }
 }
 

@@ -4497,6 +4497,7 @@ body.vertical-layout.vertical-menu.menu-expanded .main-menu-footer .content
 {
     position: absolute;
     left: 0;
+    right: inherit !important;
 
     display: none;
     /* there must be 'right' for ps-scrollbar-y-rail */
